@@ -1,0 +1,39 @@
+{
+    "configVersion": "v1",
+    "app": {
+        "appId": 502422252,
+        "appName": "咩咩的初春饰利 日历版",
+        "appType": "watchface",
+        "version": {
+            "code": 1,
+            "name": "1.0"
+        },
+        "icon": "images/bg.png",
+        "vender": "huami",
+        "description": "v1.0.1"
+    },
+    "permissions": [
+        "gps"
+    ],
+    "runtime": {
+        "apiVersion": {
+            "compatible": "1.0.0",
+            "target": "1.0.1",
+            "minVersion": "1.0.0"
+        }
+    },
+    "module": {
+        "watchface": {
+            "path": "watchface/index",
+            "main": 1,
+			"editable": 1,
+            "lockscreen": 1
+        }
+    },
+    "i18n": {
+        "zh-CN": {
+            "icon": "images/bg.png"
+        }
+    },
+    "defaultLanguage": "zh-CN"
+}
