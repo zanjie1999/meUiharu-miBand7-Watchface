@@ -196,15 +196,15 @@ try {
               h: 55,
             });
             let blP = meTime.createWidget(hmUI.widget.TEXT, {
-              x: 51,
+              x: 58,
               y: 408,
-              w: 90,
+              w: 80,
               h: 31,
             });
             let blC = meTime.createWidget(hmUI.widget.TEXT, {
-              x: 51,
+              x: 58,
               y: 440,
-              w: 90,
+              w: 80,
               h: 31,
             });
             let authSw = meTime.createWidget(hmUI.widget.TEXT, {
@@ -214,9 +214,9 @@ try {
               h: 55,
             });
             let randSw = meTime.createWidget(hmUI.widget.TEXT, {
-              x: 51,
+              x: 58,
               y: 19,
-              w: 90,
+              w: 80,
               h: 31,
             });
 
@@ -224,16 +224,16 @@ try {
             blP.addEventListener(hmUI.event.CLICK_UP, function (info) {
               let nowBl = hmSetting.getBrightness();
               hmSetting.setBrightness(nowBl + (nowBl > 39 ? 20 : 10));
-              hmUI.showToast({ text: '亮度' + hmSetting.getBrightness() + '%' });
+              hmUI.showToast({ text: '亮度 ' + hmSetting.getBrightness() + '%' });
             });
             blC.addEventListener(hmUI.event.CLICK_UP, function (info) {
               let nowBl = hmSetting.getBrightness();
               hmSetting.setBrightness(nowBl - (nowBl > 40 ? 20 : 10));
-              hmUI.showToast({ text: '亮度' + hmSetting.getBrightness() + '%' });
+              hmUI.showToast({ text: '亮度 ' + hmSetting.getBrightness() + '%' });
             });
 
             randSw.addEventListener(hmUI.event.CLICK_UP, function (info) {
-              hmUI.showToast({ text: '🎲\n' + Math.floor(Math.random() * 6 + 1) });
+              hmUI.showToast({ text: '骰子 ' + Math.floor(Math.random() * 6 + 1) });
             });
 
             // 日历部分 大部分是从 zzt741 那抄来的
