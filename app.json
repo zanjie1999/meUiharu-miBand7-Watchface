@@ -5,12 +5,12 @@
         "appName": "咩咩的初春饰利 日历版",
         "appType": "watchface",
         "version": {
-            "code": 1,
-            "name": "1.0"
+            "code": 6,
+            "name": "v6.0"
         },
         "icon": "images/bg.png",
-        "vender": "huami",
-        "description": "v1.0.1"
+        "vender": "zyyme",
+        "description": "v6.0"
     },
     "permissions": [
         "gps"
@@ -18,7 +18,7 @@
     "runtime": {
         "apiVersion": {
             "compatible": "1.0.0",
-            "target": "1.0.1",
+            "target": "6.0",
             "minVersion": "1.0.0"
         }
     },
