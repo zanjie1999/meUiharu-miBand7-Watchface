@@ -6,11 +6,11 @@
         "appType": "watchface",
         "version": {
             "code": 6,
-            "name": "v6.0"
+            "name": "v6.1"
         },
-        "icon": "images/bg.png",
+        "icon": "images/preview_sc.png",
         "vender": "zyyme",
-        "description": "v6.0"
+        "description": "v6.1"
     },
     "permissions": [
         "gps"
@@ -18,7 +18,7 @@
     "runtime": {
         "apiVersion": {
             "compatible": "1.0.0",
-            "target": "6.0",
+            "target": "6.1",
             "minVersion": "1.0.0"
         }
     },
@@ -26,13 +26,13 @@
         "watchface": {
             "path": "watchface/index",
             "main": 1,
-			"editable": 1,
+			"editable": 0,
             "lockscreen": 1
         }
     },
     "i18n": {
         "zh-CN": {
-            "icon": "images/bg.png"
+            "icon": "images/preview_sc.png"
         }
     },
     "defaultLanguage": "zh-CN"
