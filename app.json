@@ -1,0 +1,73 @@
+{
+    "configVersion": "v2",
+    "app": {
+        "appId": 502422252,
+        "appName": "咩咩的照片表盘",
+        "appType": "watchface",
+        "version": {
+            "code": 8,
+            "name": "v8.1"
+        },
+        "icon": "images/preview_sc.png",
+        "vender": "zyyme",
+        "description": "咩咩的照片表盘"
+    },
+    "permissions": [
+        "gps"
+    ],
+    "runtime": {
+        "apiVersion": {
+            "compatible": "1.0.0",
+            "target": "1.0.1",
+            "minVersion": "1.0.0"
+        },
+        "type": 2
+    },
+    "module": {
+        "watchface": {
+            "path": "watchface/index",
+            "main": 1,
+			"editable": 0,
+            "lockscreen": 1,
+            "photoscreen": 1,
+            "hightCost": 0
+        }
+    },
+    "i18n": {
+        "zh-CN": {
+            "icon": "images/preview_sc.png"
+        }
+    },
+    "defaultLanguage": "zh-CN",
+    "designWidth": 192,
+    "platforms": [
+        {
+            "name": "l66",
+            "deviceSource": 260
+        },
+        {
+            "name": "l66w",
+            "deviceSource": 261
+        },
+        {
+            "name": "l66_1",
+            "deviceSource": 262
+        },
+        {
+            "name": "l66w_2",
+            "deviceSource": 263
+        },
+        {
+            "name": "l66_3",
+            "deviceSource": 264
+        },
+        {
+            "name": "l66_4",
+            "deviceSource": 265
+        },
+        {
+            "name": "l66_5",
+            "deviceSource": 266
+        }
+    ]
+}
