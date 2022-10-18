@@ -6,7 +6,7 @@
         "appType": "watchface",
         "version": {
             "code": 8,
-            "name": "v11.3"
+            "name": "v12.0"
         },
         "icon": "images/preview_sc.png",
         "vender": "zyyme",
@@ -35,6 +35,15 @@
     },
     "i18n": {
         "zh-CN": {
+            "appName": "咩咩的照片表盘",
+            "icon": "images/preview_sc.png"
+        },
+        "zh-TW": {
+            "appName": "咩咩的照片錶盤",
+            "icon": "images/preview_sc.png"
+        },
+        "en-US": {
+            "appName": "zyyme Photo Watchface",
             "icon": "images/preview_sc.png"
         }
     },
