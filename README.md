@@ -37,7 +37,8 @@
 ## 配置
 windows的7zip压缩的zip在最新固件会安装失败，可以尝试在linux或者mac上用`zip -r install.bin *`的方式打包安装
 
-编辑`assets/meAuth.json`文件来修改 咩Auth 的key，像例子那样一个名字对应一个key，每一对用英文逗号隔开，会按顺序显示，前后需要有`{`和`}`，删除这个文件将关闭 咩Auth 功能
+编辑`assets/meAuth.json`文件来修改 咩Auth 的key，像例子那样一个名字对应一个key，每一对用英文逗号隔开，会按顺序显示，前后需要有`{`和`}`，删除这个文件将关闭 咩Auth 功能  
+文件编码格式需要使用`UTF-16 LE`，如果表盘弹窗提示错误且功能打不开，请检查编码是否正确,建议使用vscode编辑
 
 `assets/meCalStartSun`文件决定了日历的显示是否将周日开始，删除这个文件将从周一开始
 
